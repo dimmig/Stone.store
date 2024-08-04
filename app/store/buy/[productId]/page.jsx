@@ -1,11 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 import data from "../../../../mock_data/data.json";
-import { DEFAULT_TEXT_COLOR, drawColors, rgbToHex } from "@/utils/colors";
+import { DEFAULT_TEXT_COLOR, rgbToHex } from "@/utils/colors";
 import Layout from "../../components/layout";
 import Image from "next/image";
 import tinycolor from "tinycolor2";
-import { switchTab, switchToFeedbackTab, switchToItemTab } from "@/app/store/utils/tabsSwitcher";
+import { switchToFeedbackTab, switchToItemTab } from "@/app/store/utils/tabsSwitcher";
 
 const BuyPage = ({ params }) => {
   const [isFeedBackActive, setIsFeedBackActive] = useState(false);
