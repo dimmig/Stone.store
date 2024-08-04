@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import data from "../../../../mock_data/data.json";
 import { DEFAULT_TEXT_COLOR, rgbToHex } from "@/utils/colors";
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Image from "next/image";
 import tinycolor from "tinycolor2";
 import { switchToFeedbackTab, switchToItemTab } from "@/app/store/utils/tabsSwitcher";
